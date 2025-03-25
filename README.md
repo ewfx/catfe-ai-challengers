@@ -13,8 +13,11 @@
 
 ---
 ## 🎯 Introduction
-A brief overview of your project and its purpose. Mention which problem statement are your attempting to solve. Keep it concise and engaging.
-
+The Context-Aware AI-Driven Testing System is an advanced, multi-agent AI-powered framework
+designed to automate financial test generation, execution, fraud detection, and compliance
+validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic
+test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in
+financial transactions.
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
@@ -23,11 +26,13 @@ A brief overview of your project and its purpose. Mention which problem statemen
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-What inspired you to create this project? Describe the problem you're solving.
-
+Traditional test case generation is time-consuming, costly, and prone to human error. Testers struggle to
+create real-world financial transaction test scenarios covering fraud detection, regulatory compliance, and
+risk assessment. Financial institutions maintain millions of test cases, many of which become obsolete or
+redundant over time. Manual updates to test cases are not scalable and result in poor test coverage when
+system changes occur.
 ## ⚙️ What It Does
-Explain the key features and functionalities of your project.
-
+Connects to various sources, gnerates the test cases, updates the test cases, generates the automation scripts and executes the tests 
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
 
@@ -49,13 +54,14 @@ Describe the major technical or non-technical challenges your team encountered.
    ```
 
 ## 🏗️ Tech Stack
-- 🔹 Frontend: React / Vue / Angular
-- 🔹 Backend: Node.js / FastAPI / Django
-- 🔹 Database: PostgreSQL / Firebase
-- 🔹 Other: OpenAI API / Twilio / Stripe
+Frontend (UI): ReactJS Backend (APIs): FastAPI Data Processing: MongoDB, FAISS
+AI & ML: LangChain, AutoGen, Hugging Face, Llamma, OpenAI, Claude TensorFlow, NLP
+Automation & Testing: Cucumber, SpecFlow
 
 ## 👥 Team
-- **Your Name** - [GitHub](#) | [LinkedIn](#)
-- **Teammate 2** - [GitHub](#) | [LinkedIn](#)
+-  Nagarjuna Madupu
+-  Sunirmal Sikder
+-  Ram Polagani
+-  Eswar Lanka
 
 - #test
