@@ -27,7 +27,8 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 ![Sequence Diagram](./artifacts/arch/Agentic-Testing-System-Sequence-Diagram.png)
 
 ## 🎥 Demo
-📹 [Video Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Context-aware-Financial-Testing-System.mp4) (Download demo video from artifacts/demo folder or click on link.)  
+📹 [Video Demo]
+[Full Video Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Context-aware-Financial-Testing-System.mp4) (Download demo video from artifacts/demo folder or click on link.)  
 
 <video width="600" controls>
   <source src="./artifacts/demo/Context-aware-Financial-Testing-System.mp4" type="video/mp4">
@@ -79,7 +80,7 @@ cd catfe-ai-challengers
 pip install -r requirements.txt
 ```
 
-3. ../ai_automation_platform
+3. ../catfe-ai-challengers
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 4. Run the client app:
