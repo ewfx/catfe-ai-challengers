@@ -39,12 +39,12 @@ Describe the major technical or non-technical challenges your team encountered.
 ## 🏃 How to Run
 1. Clone the repository:
 ```bash
-git clone https://github.com/catefe-ai-challengers/GenAI_TestingSystem.git
+git clone https://github.com/ewfx/catfe-ai-challengers.git
 ```
 
 2. Install backend dependencies:
 ```bash
-cd GenAI_TestingSystem
+cd catfe-ai-challengers
 pip install -r requirements.txt
 ```
 
@@ -53,9 +53,9 @@ python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 4. Run the client app:
 ```bash
-cd GenAI_TestingSystem/clientapp/build
+cd catfe-ai-challengers/clientapp/build
 python -m http.server 4200
-open url http://localhost:4200/genAI-testing-system/ in browser
+open url http://localhost:4200/catfe-ai-challengers/ in browser
 ```
 
 ## 🏗️ Tech Stack
