@@ -29,18 +29,25 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
-- Traditional test case generation is time-consuming, costly, and prone to human error. Testers struggle to create real-world financial transaction test scenarios covering fraud detection, regulatory compliance, and risk assessment. Financial institutions maintain millions of test cases, many of which become obsolete or redundant over time. Manual updates to test cases are not scalable and result in poor test coverage when system changes occur.
-
+- Financial institutions operate within complex ecosystems comprising multiple interconnected systems, applications and API’s. Testing these ecosystems often relies on static mock tools leading to inefficiencies and high maintenance cost. Testers struggle to create real-world financial transaction test scenarios covering fraud detection, regulatory compliance, and risk assessment..
 - Frequent updates to AML (Anti-Money Laundering), GDPR, PCI-DSS, SOX, and other compliance frameworks make manual compliance testing inefficient. Banking operations, fund transfers, KYC validation, and credit risk assessments involve multiple transaction layers that require end-to-end testing. Rapid changes in pricing algorithms, fraud detection mechanisms, and AI-driven financial decision-making introduce new test case requirements. Manual compliance testing fails to detect violations proactively.
+- Traditional test automation frameworks lack parallel execution capabilities and efficient resource allocation. Running full regression test suites requires significant computing resources, increasing costs. Manual intervention for debugging and failure analysis adds delays and overhead. Manual compliance testing fails to detect violations proactively.
 
 ## ⚙️ What It Does
-Connects to various sources, gnerates the test cases, updates the test cases, generates the automation scripts and executes the tests 
+- The proposed solution is a multi-agent, AI-driven testing framework that dynamically generates, validates, executes, and optimizes test cases based on evolving system contexts. It integrates various data sources, extracts relevant information, and leverages Generative AI for intelligent test generation, validation, execution, and reporting.
+Data Extraction Agent fetches relevant information from multiple sources:
+    1. JIRA & Confluence documents (Engineering specs, user stories, test cases).
+    2. Splunk & Banking Logs (Error logs, transaction failures, security alerts).
+    3. API Contracts & Financial Workflows (Payments, loan approvals, customer interactions).
+    4. Database Exception Logs (SQL errors, fraud alerts, failed transactions)
+
 
 ## 🛠️ How We Built It
 React for an interactive user interface. Flask for the backend API, FAISS(VectorDB) for data store and retrieval. LangChain for Orchestrating AI workflows and multi-agent LLM execution. OpenAI GPT Large language model for test case synthesis and automation
 
 ## 🚧 Challenges We Faced
-BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. We were using FAISS as a vector store but faced issues with reading the chunks and integrating them. We then tried using the CHROMA vector database and stored the chunks in in-memory databases (persistent storage). The data chunks were embedded and successfully accessed
+BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. 
+We were using FAISS as a vector store but faced issues with reading the chunks and integrating them. We then tried using the CHROMA vector database and stored the chunks in in-memory databases (persistent storage). The data chunks were embedded and successfully accessed
 
 ## 🏃 How to Run
 1. Clone the repository:
