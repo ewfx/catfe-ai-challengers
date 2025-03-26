@@ -105,7 +105,7 @@ open url http://localhost:4200/genAI-testing-system/ in browser
   - **SpecFlow** – BDD framework for .NET applications, ensuring smooth end-to-end testing.
 
 ## 👥 Team
--  Nagarjuna Madupu
--  Sunirmal Sikder
--  Ram Polagani
--  Eswar Lanka
+-  **Nagarjuna Madupu**
+-  **Sunirmal Sikder**
+-  **Rama mohana rao Polagani**
+-  **Eswara  srinivas Lanka**
