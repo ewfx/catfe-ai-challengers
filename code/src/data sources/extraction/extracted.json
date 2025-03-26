@@ -1,0 +1,109 @@
+{
+    "project": "CustomerOnboardFlow",
+    "data_sources": {
+        "jira": {
+            "tickets": [
+                {
+                    "id": "JIRA-123",
+                    "summary": "Implement customer onboarding API",
+                    "description": "Develop an API endpoint to onboard new customers.",
+                    "status": "In Progress",
+                    "assignee": "John Doe",
+                    "created_date": "2025-03-20T10:15:30Z",
+                    "updated_date": "2025-03-22T14:22:10Z",
+                    "acceptance_criteria": "The API should accept customer data and return a confirmation message upon successful onboarding."
+                },
+                {
+                    "id": "JIRA-124",
+                    "summary": "Design customer onboarding flowchart",
+                    "description": "Create a flowchart to visualize the customer onboarding process.",
+                    "status": "Completed",
+                    "assignee": "Jane Smith",
+                    "created_date": "2025-03-18T09:12:45Z",
+                    "updated_date": "2025-03-21T16:35:00Z",
+                    "acceptance_criteria": "The flowchart should accurately represent all steps in the onboarding process."
+                }
+            ]
+        },
+        "confluence": {
+            "pages": [
+                {
+                    "title": "Customer Onboarding Process",
+                    "url": "https://confluence.company.com/display/CO/Customer+Onboarding+Process",
+                    "last_updated": "2025-03-22T08:45:00Z",
+                    "content_summary": "This page outlines the end-to-end process for onboarding new customers, including required documentation and approval workflows."
+                },
+                {
+                    "title": "API Documentation for Customer Onboarding",
+                    "url": "https://confluence.company.com/display/CO/API+Documentation+for+Customer+Onboarding",
+                    "last_updated": "2025-03-21T15:30:00Z",
+                    "content_summary": "Detailed specifications for the customer onboarding API, including request/response formats and error codes."
+                }
+            ]
+        },
+        "splunk": {
+            "logs": [
+                {
+                    "timestamp": "2025-03-22T10:00:00Z",
+                    "level": "ERROR",
+                    "message": "NullReferenceException in CustomerService at line 45.",
+                    "source": "CustomerService.cs",
+                    "stack_trace": "at CustomerService.GetCustomerById(Int32 id) in CustomerService.cs:line 45"
+                },
+                {
+                    "timestamp": "2025-03-22T10:05:00Z",
+                    "level": "WARN",
+                    "message": "Slow response detected in AuthController during peak hours.",
+                    "source": "AuthController.cs",
+                    "details": "Response time exceeded 2000ms during load testing."
+                }
+            ]
+        },
+        "database_logs": {
+            "entries": [
+                {
+                    "timestamp": "2025-03-22T09:30:00Z",
+                    "severity": "ERROR",
+                    "message": "Database connection timeout during customer data retrieval.",
+                    "query": "SELECT * FROM Customers WHERE Id = 123",
+                    "duration_ms": 5000
+                },
+                {
+                    "timestamp": "2025-03-22T09:45:00Z",
+                    "severity": "ERROR",
+                    "message": "Unique constraint violation on 'Email' field during customer registration.",
+                    "query": "INSERT INTO Customers (Name, Email) VALUES ('John Doe', 'john.doe@example.com')",
+                    "error_code": "23505"
+                }
+            ]
+        },
+        "github": {
+            "commits": [
+                {
+                    "hash": "abc123def456",
+                    "author": "JaneDoe",
+                    "date": "2025-03-20T14:22:00Z",
+                    "message": "Add customer registration endpoint with validation and error handling.",
+                    "files_changed": [
+                        "CustomerOnboard.API/Controllers/CustomersController.cs",
+                        "CustomerOnboard.Application/Services/CustomerService.cs"
+                    ]
+                },
+                {
+                    "hash": "789ghi012jkl",
+                    "author": "JohnSmith",
+                    "date": "2025-03-21T09:15:00Z",
+                    "message": "Implement JWT-based authentication and integrate with customer login.",
+                    "files_changed": [
+                        "CustomerOnboard.API/Controllers/AuthController.cs",
+                        "CustomerOnboard.Application/Services/AuthService.cs"
+                    ]
+                }
+            ]
+        }
+    },
+    "project_details": {
+        "framework": "ASP.NET Core",
+        "bdd_suite": "SpecFlow"
+    }
+}

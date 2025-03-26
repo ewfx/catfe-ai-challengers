@@ -1,0 +1,14 @@
+openai
+tiktoken 
+langchain
+flask
+GitPython
+python-dotenv
+# streamlit
+faiss-cpu
+unstructured[local-inference]
+langchain-community
+langchain-openai
+uvicorn
+fastapi
+pydantic
