@@ -18,6 +18,11 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
+<video width="600" controls>
+  <source src="./artifacts/demo/Context-aware Financial Testing System.mp4" type="video/mp4">
+  Your browser does not support the video tag.
+</video>
+
 🖼️ Screenshots:
 **Generate Testcases**
 ![Generate Testcases](./artifacts/demo/UI_TestCases.jpeg)
