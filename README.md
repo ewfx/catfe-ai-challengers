@@ -16,8 +16,15 @@
 The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-powered framework designed to automate financial test generation, execution, fraud detection, and compliance validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in financial transactions.
 
 ## Solution Presentation
-[Soltution Presentation Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/
-(Download Presentation Context-aware-Financial-Testing-System.pdf from artifacts/arch folder or click on link.)  
+[Soltution Presentation](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/
+(Download Presentation **Context-aware-Financial-Testing-System.pdf** from artifacts/arch folder or click on link.)  
+
+## Solution Architecture
+**Architecture Diagram:**
+![Architecture Diagram](./artifacts/arch/Agentic-Testing-System-Architecture-Diagram.png)
+
+**Sequence Diagram:**
+![Sequence Diagram](./artifacts/arch/Agentic-Testing-System-Sequence-Diagram.png)
 
 ## 🎥 Demo
 📹 [Video Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Context-aware-Financial-Testing-System.mp4) (Download demo video from artifacts/demo folder or click on link.)  
@@ -34,12 +41,6 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 ![Generate Automation Script](./artifacts/demo/UI_BDD_Script.jpeg)
 **API Endpoints**
 ![API Endpoints](./artifacts/demo/api_endpoints.jpeg)
-
-**Architecture Diagram:**
-![Architecture Diagram](./artifacts/arch/Agentic-Testing-System-Architecture-Diagram.png)
-
-**Sequence Diagram:**
-![Sequence Diagram](./artifacts/arch/Agentic-Testing-System-Sequence-Diagram.png)
 
 ## 💡 Inspiration
 - Financial institutions operate within complex ecosystems comprising multiple interconnected systems, applications and API’s. Testing these ecosystems often relies on static mock tools leading to inefficiencies and high maintenance cost. Testers struggle to create real-world financial transaction test scenarios covering fraud detection, regulatory compliance, and risk assessment..
