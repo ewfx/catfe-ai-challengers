@@ -266,7 +266,7 @@ def generate_bdd_test_cases(repo_url, query, persist_directory, chunk_size=2000,
         bdd_test_case_template = PromptTemplate(
             input_variables=["test_case_input"],
             template=(
-                " Generate SpecFlow BDD all types positive and negative cases and step definitions with the following parameters:\n"
+                " Generate SpecFlow BDD all types positive and negative cases and step definitions and binding with the following parameters:\n"
                 "{test_case_input}"
                 #"For each test case, include:\n"
                 #"- Input Request\n"
