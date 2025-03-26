@@ -13,7 +13,7 @@
 
 ---
 ## 🎯 Introduction
-The **Context-Aware AI-Driven Testing Syste**m is an advanced, multi-agent AI-powered framework designed to automate financial test generation, execution, fraud detection, and compliance validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in financial transactions.
+The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-powered framework designed to automate financial test generation, execution, fraud detection, and compliance validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in financial transactions.
 
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
@@ -59,11 +59,23 @@ open url http://localhost:4200/genAI-testing-system/ in browser
 ```
 
 ## 🏗️ Tech Stack
-- **Frontend (UI):** ReactJS
-- **Backend (APIs):** FastAPI
-- **Database:** MongoDB, FAISS (VectorDB)
-- **AI & ML:** LangChain, AutoGen, Hugging Face, Llamma, OpenAI GPT, Claude TensorFlow, NLP
-- **Automation & Testing:** Cucumber, SpecFlow
+- **Frontend (UI)**
+  - **ReactJS** – Modern, responsive, and interactive user interface.
+- **Backend (APIs)**
+  - **FastAPI** – High-performance API framework for handling test case generation and execution.
+- **Database & Storage**
+  - **MongoDB** – NoSQL database for structured and semi-structured test data storage.
+  - **FAISS (VectorDB)** – Efficient similarity search for AI-driven test case clustering and retrieval.
+- **AI & Machine Learning**
+  - **LangChain** – Orchestrating AI workflows and multi-agent LLM execution.
+  - **AutoGen** – AI-driven automation and adaptive test case generation.
+  - **Hugging Face** – Pre-trained NLP models for test analysis and optimization.
+  - **Llama, OpenAI GPT, Claude**– Large language models for test case synthesis and automation.
+  - **TensorFlow** – Machine learning framework for predictive analytics and anomaly detection.
+  - **NLP (Natural Language Processing)** – Extracting insights from test logs and requirement documents.
+- **Automation & Testing**
+  - **Cucumber** – BDD (Behavior-Driven Development) test automation framework.
+  - **SpecFlow** – BDD framework for .NET applications, ensuring smooth end-to-end testing.
 
 ## 👥 Team
 -  Nagarjuna Madupu
