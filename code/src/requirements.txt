@@ -9,6 +9,7 @@ faiss-cpu
 unstructured[local-inference]
 langchain-community
 langchain-openai
+chromadb
 uvicorn
 fastapi
 pydantic
