@@ -28,6 +28,7 @@
     "@fontsource/roboto": "^4.5.8",
     "@mui/icons-material": "^5.11.11",
     "@mui/material": "^5.11.15",
+    "@types/react-syntax-highlighter": "^15.5.13",
     "github-pages": "^3.0.2",
     "i18next": "^22.4.13",
     "i18next-browser-languagedetector": "^7.0.1",
@@ -36,6 +37,7 @@
     "react-i18next": "^12.2.0",
     "react-router-dom": "^6.10.0",
     "react-scripts": "5.0.1",
+    "react-syntax-highlighter": "^15.6.1",
     "recharts": "^2.15.1",
     "web-vitals": "^3.3.0"
   },

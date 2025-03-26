@@ -69,7 +69,7 @@ python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 ```bash
 cd catfe-ai-challengers/clientapp/build
 python -m http.server 4200
-open url http://localhost:4200/catfe-ai-challengers/ in browser
+open url http://localhost:4200/genAI-testing-system/ in browser
 ```
 
 ## 🏗️ Tech Stack
