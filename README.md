@@ -36,12 +36,10 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 ![API Endpoints](./artifacts/demo/api_endpoints.jpeg)
 
 **Architecture Diagram:**
-![Architecture Diagram](./artifacts/arch/Agentic%20Testing%20System%20-%20Architecture%20Diagram.png)
+![Architecture Diagram](./artifacts/arch/Agentic-Testing-System-Architecture-Diagram.png)
 
 **Design Flow:**
-![Sequence Diagram](./artifacts/arch/Agentic%20Testing%20System%20-%20Sequence%20Diagram.png)
-
-![Screenshot 1](link-to-image)
+![Sequence Diagram](./artifacts/arch/Agentic-Testing-System-Sequence-Diagram.png)
 
 ## 💡 Inspiration
 - Financial institutions operate within complex ecosystems comprising multiple interconnected systems, applications and API’s. Testing these ecosystems often relies on static mock tools leading to inefficiencies and high maintenance cost. Testers struggle to create real-world financial transaction test scenarios covering fraud detection, regulatory compliance, and risk assessment..
