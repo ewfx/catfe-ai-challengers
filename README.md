@@ -81,6 +81,7 @@ pip install -r requirements.txt
 ```
 
 3. cd catfe-ai-challengers
+
 python -m uvicorn app.main:app --host 0.0.0.0 --port 8000
 
 4. Run the client app:
