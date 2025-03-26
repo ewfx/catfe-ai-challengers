@@ -3,10 +3,10 @@
 ## Solution Presentation
 ![Solution Presentation](Context-aware-Financial-Testing-System.pdf)
 ## System Flow Overview
-![Architecture Diagram](agentic%ncial testing system.pdf)
+![Architecture Diagram](Agentic-Testing-System-Architecture-Diagram.png)
 
 ## Flow Diagram
-![Flow Diagram](agentic%20testing%20system%20-%20sequence%20diagram.png)
+![Flow Diagram](Agentic-Testing-System-Sequence-Diagram.png)
 ## Components Description
 
 ### 1. Frontend Layer
@@ -21,10 +21,11 @@
     - Splunk & Banking Logs (Error logs, transaction failures, security alerts).
     - API Contracts & Financial Workflows (Payments, loan approvals, customer interactions).
     - Database Exception Logs (SQL errors, fraud alerts, failed transactions).
-  **Preprocessing**: 
-    - NLP-based Data Extraction: Extracts test scenarios from documents and logs. 
-    - Vector Similarity Search: Detects duplicate test cases. Data Transformation  
-    - Converts unstructured text into structured test case format.
+
+    **Preprocessing**: 
+        - NLP-based Data Extraction: Extracts test scenarios from documents and logs. 
+        - Vector Similarity Search: Detects duplicate test cases. Data Transformation  
+        - Converts unstructured text into structured test case format.
 
 ### 3. AI-Powered Test Case Generation & Validation
     - Test Case Generator Agent processes the extracted data using an LLM (e.g., ChatGPT, LLaMA) to create test cases.
@@ -40,7 +41,7 @@
     - Modified test cases replace outdated ones, ensuring accuracy and relevance.
 
 
-### 5.BDD Test Automation
+### 5. BDD Test Automation
     - UI triggers BDD Automation Agent to generate BDD test scripts.
     - BDD Automation Agent uses LLM to convert test cases into executable scripts.
 
@@ -51,5 +52,5 @@
     - AI will detect why a test failed and suggest fixes.
     - AI will generate fraudulent transaction patterns to test financial fraud detection system and compliance validation
 
-## Reporting and Analytics
+## 7. Reporting and Analytics
     - The Predictive Analytics Agent will analyze past test results, identify risks, and optimize future test cases.
