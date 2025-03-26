@@ -20,6 +20,9 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
 
+**Design Flow:**
+![Sequence Diagram](./artifacts/Agentic Testing System - Sequence Diagram.png)
+
 ![Screenshot 1](link-to-image)
 
 ## 💡 Inspiration
