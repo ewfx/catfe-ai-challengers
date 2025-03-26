@@ -19,6 +19,12 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
 🖼️ Screenshots:
+**Generate Testcases**
+![Generate Testcases](./artifacts/demo/UI_TestCases.jpeg)
+**Generate Automation Script**
+![Generate Automation Script](./artifacts/demo/UI_BDD_Script.jpeg)
+**API Endpoints**
+![API Endpoints](./artifacts/demo/api_endpoints.jpeg)
 
 **Architecture Diagram:**
 ![Architecture Diagram](./artifacts/arch/Agentic%20Testing%20System%20-%20Architecture%20Diagram1.png)
