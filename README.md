@@ -59,10 +59,10 @@ open url http://localhost:4200/genAI-testing-system/ in browser
 ```
 
 ## 🏗️ Tech Stack
-- **Frontend (UI):** ReactJS Backend (APIs): FastAPI Data Processing: MongoDB, FAISS
-
-- **AI & ML:** LangChain, AutoGen, Hugging Face, Llamma, OpenAI, Claude TensorFlow, NLP
-
+- **Frontend (UI):** ReactJS
+- **Backend (APIs):** FastAPI
+- **Database:** MongoDB, FAISS (VectorDB)
+- **AI & ML:** LangChain, AutoGen, Hugging Face, Llamma, OpenAI GPT, Claude TensorFlow, NLP
 - **Automation & Testing:** Cucumber, SpecFlow
 
 ## 👥 Team
