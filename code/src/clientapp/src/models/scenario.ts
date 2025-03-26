@@ -4,10 +4,11 @@ export interface Scenario {
 }
 
 export interface ProcessStep {
-  Scenario: string;
-  Given: string;
-  When: string;
-  Then: string;
+  testcase: string;
+  scenario: string;
+  given: string;
+  when: string;
+  then: string;
 }
 
 export interface ProcessRepo {

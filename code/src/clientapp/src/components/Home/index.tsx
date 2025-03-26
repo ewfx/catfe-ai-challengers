@@ -1,14 +1,14 @@
 import React, { useState } from "react";
 import { Button, MenuItem, Select, FormControl, InputLabel, Container, CircularProgress, Checkbox, FormControlLabel, FormGroup, Typography } from "@mui/material";
 import Results from '../Results';
-import { ProcessRepo, ProcessStep } from '../../models/scenario';
 
 const options = ["Github", "Splunk", "Jira", "Confluence", "Database"];
 
 
 const Home: React.FC = () => {
   const [loading, setLoading] = useState(false);
-  const [scenarios, setScenarios] = useState<ProcessStep[]>([]);
+  const [scenarios, setScenarios] = useState<any>(null);
+  const [specflow, setSpecFlow] = useState<string>("");
   const [formData, setFormData] = useState({
     dropdown1: "",
     dropdown2: "",
@@ -35,7 +35,7 @@ const Home: React.FC = () => {
     e.preventDefault();
     setLoading(true);
     setScenarios([]);
-    console.log(formData);
+    loadSpecFlow();
     try {
       const response = await fetch("http://localhost:8000/process_repoandgenerate_testcases", {
         method: "POST",
@@ -44,13 +44,32 @@ const Home: React.FC = () => {
           "text": "https://github.com/ram541619/CustomerOnboardFlow.git",
         }),
       });
-      const data: ProcessRepo = await response.json();
-      setScenarios(data.process_repo);
+      const data = await response.json();
+      setScenarios(data);
       setLoading(false);
     } catch (error) {
       console.error("Error submitting form:", error);
     }
   };
+
+  const loadSpecFlow = async () => {
+    setLoading(true);
+    setSpecFlow("");
+    try {
+      const response = await fetch("http://localhost:8000/process_repoandgenerate_testcasesv1", {
+        method: "POST",
+        headers: { "Content-Type": "application/json" },
+        body: JSON.stringify({
+          "text": "https://github.com/ram541619/CustomerOnboardFlow.git",
+        }),
+      });
+      const data = await response.json();
+      setSpecFlow(data?.process_repo || "");
+      setLoading(false);
+    } catch (error) {
+      console.error("Error submitting form:", error);
+    }
+  }
 
   return (
     <Container>
@@ -104,11 +123,9 @@ const Home: React.FC = () => {
           </Button>
         </form>
       </Container>
-      {scenarios.length > 0 &&
         <Container>
-          <Results scenarios={scenarios} />
+          <Results scenarios={scenarios} specflow={specflow} />
         </Container>
-      }
     </Container>
   );
 };
