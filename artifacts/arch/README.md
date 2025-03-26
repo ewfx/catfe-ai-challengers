@@ -4,7 +4,7 @@
 [Soltution Presentation Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/
 (Download Presentation PDF from artifacts/arch folder or click on link.)  
 
-## System Flow Overview
+## System Architecture
 ![Architecture Diagram](Agentic-Testing-System-Architecture-Diagram.png)
 
 ## Flow Diagram
