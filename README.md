@@ -15,17 +15,6 @@
 ## 🎯 Introduction
 The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-powered framework designed to automate financial test generation, execution, fraud detection, and compliance validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in financial transactions.
 
-## Solution Presentation
-[Soltution Presentation](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/Context-aware-Financial-Testing-System.pdf
-(Download Presentation **Context-aware-Financial-Testing-System.pdf** from artifacts/arch folder or click on link.)  
-
-## Solution Architecture
-**Architecture Diagram:**
-![Architecture Diagram](./artifacts/arch/Agentic-Testing-System-Architecture-Diagram.png)
-
-**Sequence Diagram:**
-![Sequence Diagram](./artifacts/arch/Agentic-Testing-System-Sequence-Diagram.png)
-
 ## 🎥 Demo
 📹 [Video Demo]
 [Full Video Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Context-aware-Financial-Testing-System.mp4) (Download demo video from artifacts/demo folder or click on link.)  
@@ -37,6 +26,18 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 
 [Intro and Automation Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Intro_Demo.mp4) (Download demo video from artifacts/demo folder or click on link.)  
 [Code Walk-through Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Code_walk.mp4) (Download demo video from artifacts/demo folder or click on link.)  
+
+## Solution Presentation
+[Soltution Presentation](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/Context-aware-Financial-Testing-System.pdf
+(Download Presentation **Context-aware-Financial-Testing-System.pdf** from artifacts/arch folder or click on link.)  
+
+## Solution Architecture
+**Architecture Diagram:**
+![Architecture Diagram](./artifacts/arch/Agentic-Testing-System-Architecture-Diagram.png)
+
+**Sequence Diagram:**
+![Sequence Diagram](./artifacts/arch/Agentic-Testing-System-Sequence-Diagram.png)
+
 
 🖼️ Screenshots:
 **Generate Testcases**
