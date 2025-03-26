@@ -36,7 +36,7 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 ## ⚙️ What It Does
 - The proposed solution is a multi-agent, AI-driven testing framework that dynamically generates, validates, executes, and optimizes test cases based on evolving system contexts. It integrates various data sources, extracts relevant information, and leverages Generative AI for intelligent test generation, validation, execution, and reporting.
 Fetching the relevant information from multiple sources:
-    1. JIRA & Confluence documents (Engineering specs, user stories, test cases).
+    1. JIRA & Confluence documents (Engineering specs, user stories).
     2. Splunk & Banking Logs (Error logs, transaction failures, security alerts).
     3. API Contracts & Financial Workflows (Payments, loan approvals, customer interactions).
     4. Database Exception Logs (SQL errors, fraud alerts, failed transactions)
