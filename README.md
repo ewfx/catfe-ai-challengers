@@ -14,6 +14,7 @@
 ---
 ## 🎯 Introduction
 The Context-Aware AI-Driven Testing System is an advanced, multi-agent AI-powered framework designed to automate financial test generation, execution, fraud detection, and compliance validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in financial transactions.
+
 ## 🎥 Demo
 🔗 [Live Demo](#) (if applicable)  
 📹 [Video Demo](#) (if applicable)  
@@ -25,10 +26,12 @@ The Context-Aware AI-Driven Testing System is an advanced, multi-agent AI-powere
 Traditional test case generation is time-consuming, costly, and prone to human error. Testers struggle to create real-world financial transaction test scenarios covering fraud detection, regulatory compliance, and
 risk assessment. Financial institutions maintain millions of test cases, many of which become obsolete or redundant over time. Manual updates to test cases are not scalable and result in poor test coverage when
 system changes occur.
+
 Frequent updates to AML (Anti-Money Laundering), GDPR, PCI-DSS, SOX, and other compliance frameworks make manual compliance testing inefficient. Banking operations, fund transfers, KYC validation, and credit risk assessments involve multiple transaction layers that require end-to-end testing. Rapid changes in pricing algorithms, fraud detection mechanisms, and AI-driven financial decision-making introduce new test case requirements. Manual compliance testing fails to detect violations proactively.
 
 ## ⚙️ What It Does
 Connects to various sources, gnerates the test cases, updates the test cases, generates the automation scripts and executes the tests 
+
 ## 🛠️ How We Built It
 Briefly outline the technologies, frameworks, and tools used in development.
 
@@ -56,7 +59,6 @@ cd GenAI_TestingSystem/clientapp/build
 python -m http.server 4200
 open url http://localhost:4200/genAI-testing-system/ in browser
 ```
-
 
 ## 🏗️ Tech Stack
 **Frontend (UI):** ReactJS Backend (APIs): FastAPI Data Processing: MongoDB, FAISS
