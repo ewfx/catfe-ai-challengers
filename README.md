@@ -31,10 +31,10 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 Connects to various sources, gnerates the test cases, updates the test cases, generates the automation scripts and executes the tests 
 
 ## 🛠️ How We Built It
-Briefly outline the technologies, frameworks, and tools used in development.
+React for an interactive user interface. Flask for the backend API, FAISS(VectorDB) for data store and retrieval. LangChain for Orchestrating AI workflows and multi-agent LLM execution. OpenAI GPT Large language model for test case synthesis and automation
 
 ## 🚧 Challenges We Faced
-Describe the major technical or non-technical challenges your team encountered.
+BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. 
 
 ## 🏃 How to Run
 1. Clone the repository:
