@@ -15,6 +15,10 @@
 ## 🎯 Introduction
 The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-powered framework designed to automate financial test generation, execution, fraud detection, and compliance validation. This system leverages Generative AI with LLM’s, NLP, and ML models to create dynamic test cases from various financial data sources, ensuring optimal accuracy, security, and efficiency in financial transactions.
 
+## Solution Presentation
+[Soltution Presentation Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/
+(Download Presentation Context-aware-Financial-Testing-System.pdf from artifacts/arch folder or click on link.)  
+
 ## 🎥 Demo
 📹 [Video Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/demo/Context-aware-Financial-Testing-System.mp4) (Download demo video from artifacts/demo folder or click on link.)  
 

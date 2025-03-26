@@ -1,7 +1,9 @@
 # 🏗️ AI-Powered Testing System Architecture
 
 ## Solution Presentation
-![Solution Presentation](Context-aware-Financial-Testing-System.pdf)
+[Soltution Presentation Demo](https://github.com/ewfx/catfe-ai-challengers/tree/main/artifacts/arch/
+(Download Presentation PDF from artifacts/arch folder or click on link.)  
+
 ## System Flow Overview
 ![Architecture Diagram](Agentic-Testing-System-Architecture-Diagram.png)
 
@@ -10,7 +12,7 @@
 ## Components Description
 
 ### 1. Frontend Layer
-- **React Application**
+    - **React Application**
     - User selects the Application and Services from UI. 
     - Triggers the Test case generation, automation script, execute tests and reports & analytics.
 
