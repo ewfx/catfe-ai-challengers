@@ -34,7 +34,7 @@ Connects to various sources, gnerates the test cases, updates the test cases, ge
 React for an interactive user interface. Flask for the backend API, FAISS(VectorDB) for data store and retrieval. LangChain for Orchestrating AI workflows and multi-agent LLM execution. OpenAI GPT Large language model for test case synthesis and automation
 
 ## 🚧 Challenges We Faced
-BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. 
+BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. We were using FAISS as a vector store but faced issues with reading the chunks and integrating them. We then tried using the CHROMA vector database and stored the chunks in in-memory databases (persistent storage). The data chunks were embedded and successfully accessed
 
 ## 🏃 How to Run
 1. Clone the repository:
