@@ -35,7 +35,7 @@ The **Context-Aware AI-Driven Testing System** is an advanced, multi-agent AI-po
 
 ## ⚙️ What It Does
 - The proposed solution is a multi-agent, AI-driven testing framework that dynamically generates, validates, executes, and optimizes test cases based on evolving system contexts. It integrates various data sources, extracts relevant information, and leverages Generative AI for intelligent test generation, validation, execution, and reporting.
-Data Extraction Agent fetches relevant information from multiple sources:
+Fetching the relevant information from multiple sources:
     1. JIRA & Confluence documents (Engineering specs, user stories, test cases).
     2. Splunk & Banking Logs (Error logs, transaction failures, security alerts).
     3. API Contracts & Financial Workflows (Payments, loan approvals, customer interactions).
@@ -46,8 +46,9 @@ Data Extraction Agent fetches relevant information from multiple sources:
 React for an interactive user interface. Flask for the backend API, FAISS(VectorDB) for data store and retrieval. LangChain for Orchestrating AI workflows and multi-agent LLM execution. OpenAI GPT Large language model for test case synthesis and automation
 
 ## 🚧 Challenges We Faced
-BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. 
-We were using FAISS as a vector store but faced issues with reading the chunks and integrating them. We then tried using the CHROMA vector database and stored the chunks in in-memory databases (persistent storage). The data chunks were embedded and successfully accessed
+- BDD automation script is returned as text instead of JSON formatted object from OpenAI GPT LLM. 
+
+- We were using FAISS as a vector store but faced issues with reading the chunks and integrating them. We then tried using the CHROMA vector database and stored the chunks in in-memory databases (persistent storage). The data chunks were embedded and successfully accessed
 
 ## 🏃 How to Run
 1. Clone the repository:
